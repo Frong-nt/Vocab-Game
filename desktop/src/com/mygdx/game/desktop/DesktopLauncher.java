@@ -12,6 +12,6 @@ public class DesktopLauncher {
 		config.resizable = false;
 		
 		//arg[0] is path of project 
-		new LwjglApplication(new MyMainGame(arg[0]), config);
+		new LwjglApplication(new MyMainGame(), config);
 	}
 }
